@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+img {
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 50% 150%;
+    margin: 5px;
+}
+
+.outputId {
+
+}
