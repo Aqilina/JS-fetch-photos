@@ -5,7 +5,7 @@ body {
     align-items: center;
 }
 
-.container {
+.container, #load_data, #load_data2 {
     margin: 20px;
 }
 
@@ -17,6 +17,3 @@ img {
     margin: 5px;
 }
 
-.outputId {
-
-}

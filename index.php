@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 
 <!doctype html>
 <html lang="en">
@@ -22,16 +18,10 @@
         <img src="https://www.designer.io/wp-content/uploads/2019/10/1.png" alt="">
         <img src="http://atozillusions.com/wp-content/uploads/2015/04/Granary-Lightening-Strike.jpg" alt="">
     </div>
+    <div id="load_data"></div>
+    <div id="load_data2"></div>
 
-    <form action="" method="post" id="loadMoreForm">
-
-        <input type="text" name="labas" placeholder="pasitikrink">
-
-        <button type="submit" >Load more</button>
-    </form>
-
-<div class="output" id="out">
-    <h2>Results</h2>
+    <button type="submit" id="loadMoreBtn">Load more</button>
 
 </div>
 

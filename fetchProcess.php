@@ -9,6 +9,14 @@ $photosToFetch = [
     'https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/blog/xsounds-of-spring-stream.jpg,qla=en-gb,arev=0C7E,ahash=98BA1904D8DB134FE95B3E597011C322.pagespeed.ic.b93a5CGLIg.webp',
     'https://wdh01.azureedge.net/-/media/hidden-hearing/uk/shared/images/blog/xsounds-of-spring-wind.jpg,qla=en-gb,arev=0EE0,ahash=E5302564E5AD737395A4E6566D4B2EF3.pagespeed.ic.u36uuDwooK.webp'
 ];
-print 'labas from PHP';
-var_dump($_POST);
+
+header('Content-Type: application/json'); //kas gris kaip atsakas i scipt page
+echo json_encode($photosToFetch);
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//       SITAM FAILE NEGALIMA NIEKO VARDUMPINTIS AR PRINTINTIS !!!!!!
+//  VISKAS GRIZTA KAIP FETCH ATSAKYMAS - IR TA GRIZUSI MEDZIAGA NERA JSON !!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//print 'LABAS';
+//var_dump($_POST);
 
